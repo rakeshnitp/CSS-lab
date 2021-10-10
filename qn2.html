@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Image gallery with Flex</title>
+        <style>
+        body{
+            background-color:white;
+        }
+        .wrapper h1{
+            text-align: center;
+            font-size: 30px;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        .img-area{
+            display: flex;
+            flex-wrap: wrap;
+            flex-direction: row;
+            align-items: center;
+            justify-content: center;
+            padding: 5px 5px 5px 5px;
+        }
+        .single-img{
+            padding: 0 20px 20 px;
+        }
+        img:hover{
+            opacity: .5;
+            transition: .5;
+        }
+        </style>
+    </head>
+    <body>
+        <div class="wrapper">
+            <h1>Flexbox Image Gallery</h1>
+            <div class="img-area">
+                <div class="single-img"><img src="images1.jpg" height="450px" width="450px" alt=""></div>
+                <div class="single-img"><img src="images2.jpg" height="450px" width="450px" alt=""></div>
+                <div class="single-img"><img src="images3.jpg" height="450px" width="450px" alt=""></div>
+                <div class="single-img"><img src="images4.jpg" height="450px" width="450px"  alt=""></div>
+                <div class="single-img"><img src="images5.jpg" height="450px" width="450px"  alt=""></div>
+                <div class="single-img"><img src="images6.jpg" height="450px" width="450px"  alt=""></div>
+                
+
+                
+            </div>
+        </div>
+    </body>
+</html>
